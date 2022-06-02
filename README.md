@@ -7,6 +7,10 @@
 - 🚀 A similar `React.Context` way of Coding
 - 💪 Implement intelligent, deeper, powerful type inference with the help of `Template Literal Types` and `Infer Keyword`
 
+## install
+  ```
+  npm i use-x-provider
+  ```
 ## Demo
 
 - [demo online](https://codesandbox.io/s/dreamy-sinoussi-zinjvv)
