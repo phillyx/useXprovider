@@ -1,0 +1,9 @@
+dist/
+node_modules
+node_modules/
+patches/
+types/
+!/.eslintrc.js
+!.test
+.temp
+lib/
