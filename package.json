@@ -1,6 +1,6 @@
 {
   "name": "use-x-provider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small and concise way to manage data state",
   "keywords": [
     "vue",
