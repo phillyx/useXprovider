@@ -1,0 +1,3 @@
+- v0.0.3 add **how 2 use context out of component**
+- v0.0.2 add `TS Playground of type reference` doc
+- v0.0.1 init

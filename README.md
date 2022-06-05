@@ -63,8 +63,11 @@ export default defineComponent({
 </template>
 <script lang="ts" setup>
 import { useDemoContext, setDemoState, setDemoStateWithStr } from './demo.context'
+import { useXhook } from './hooks/useXhook'
 
 const demoContext = useDemoContext()
+// must initialized in setup
+const { d } = useXhook(demoContext)
 
 const onclick = () => {
   setDemoState({ status: true })
@@ -79,6 +82,17 @@ const onClick1 = () => {
 }
 </script>
 
+```
+
+```ts
+ // hooks, how to use context out of the component
+ function useXhook(context: IDemoState) {
+   const d = computed(() => context.foo.bar.a.toUpperCase())
+
+   return {
+     d
+   }
+ }
 ```
 ## 🐄🍺 Type reference
 
