@@ -1,10 +1,12 @@
 {
   "name": "use-x-provider",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A small and concise way to manage data state",
   "keywords": [
     "vue",
     "state manage",
+    "vuex",
+    "pinia",
     "context",
     "provider",
     "type reference"
