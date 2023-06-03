@@ -1,3 +1,4 @@
+- v0.1.2 fix: type error
 - v0.1.0 update readme.md
 - v0.0.3 add **how 2 use context out of component**
 - v0.0.2 add `TS Playground of type reference` doc
